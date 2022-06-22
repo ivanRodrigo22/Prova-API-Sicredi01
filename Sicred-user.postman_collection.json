@@ -1,0 +1,578 @@
+{
+	"info": {
+		"_postman_id": "9b1125af-978b-4d71-97ef-abebfe6708b1",
+		"name": "Sicred-user",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18164919"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "Cpf restrito",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/restricoes/97093236014",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"restricoes",
+								"97093236014"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cpf restrito.",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/restricoes/60094146012",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"restricoes",
+								"60094146012"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cpf restrito..",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/restricoes/84809766080",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"restricoes",
+								"84809766080"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cpf restrito...",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/restricoes/62648716050",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"restricoes",
+								"62648716050"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cpf restrito_",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/restricoes/26276298085",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"restricoes",
+								"26276298085"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cpf restrito_.",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/restricoes/01317496094",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"restricoes",
+								"01317496094"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cpf restrito_..",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/restricoes/55856777050",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"restricoes",
+								"55856777050"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cpf restrito,",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/restricoes/19626829001",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"restricoes",
+								"19626829001"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cpf restrito,.",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/restricoes/24094592008",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"restricoes",
+								"24094592008"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cpf restrito;",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/restricoes/58063164083",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"restricoes",
+								"58063164083"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "POST",
+			"item": [
+				{
+					"name": "Simulação duplicado",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Fulano de Tal\",\r\n  \"cpf\": 97093236014,\r\n  \"email\": \"email@email.com\",\r\n  \"valor\": 1200,\r\n  \"parcelas\": 3,\r\n  \"seguro\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/simulacoes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"simulacoes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Simulação correta",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Robson Antunes\",\r\n  \"cpf\": 58063164083,\r\n  \"email\": \"robson@email.com\",\r\n  \"valor\": 5200,\r\n  \"parcelas\": 10,\r\n  \"seguro\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/simulacoes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"simulacoes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Simulação cpf duplicado",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"mister Cpfigual\",\r\n  \"cpf\": 58063164083,\r\n  \"email\": \"rob@email.com\",\r\n  \"valor\": 7500,\r\n  \"parcelas\": 5,\r\n  \"seguro\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/simulacoes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"simulacoes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Simulação faltando informação",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Senhor Errado\",\r\n  \"cpf\": 58063164087,\r\n  \"email\": \"sen@email.com\",\r\n  \"valor\": 9500,\r\n  \"parcelas\": ,\r\n  \"seguro\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/simulacoes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"simulacoes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Simulação correto.",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Silvia Sant\",\r\n  \"cpf\": 97093236016,\r\n  \"email\": \"tmail@email.com\",\r\n  \"valor\": 7200,\r\n  \"parcelas\": 8,\r\n  \"seguro\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/simulacoes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"simulacoes"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PUT",
+			"item": [
+				{
+					"name": "Simulação atualizada comsucesso",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Fulano de Tal\",\r\n  \"cpf\": 97093236014,\r\n  \"email\": \"email@email.com\",\r\n  \"valor\": 1200,\r\n  \"parcelas\": 5,\r\n  \"seguro\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/simulacoes/97093236014",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"simulacoes",
+								"97093236014"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cpf não possui Simulação ",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Fulano de Tal\",\r\n  \"cpf\": 97093236014,\r\n  \"email\": \"email@email.com\",\r\n  \"valor\": 1200,\r\n  \"parcelas\": 5,\r\n  \"seguro\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/simulacoes/97093236010",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"simulacoes",
+								"97093236010"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GET simulações",
+			"item": [
+				{
+					"name": "Simulações",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Silvia Sant\",\r\n  \"cpf\": 97093236016,\r\n  \"email\": \"tmail@email.com\",\r\n  \"valor\": 7200,\r\n  \"parcelas\": 8,\r\n  \"seguro\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/simulacoes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"simulacoes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Simulações consultar por cpf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Silvia Sant\",\r\n  \"cpf\": 97093236016,\r\n  \"email\": \"tmail@email.com\",\r\n  \"valor\": 7200,\r\n  \"parcelas\": 8,\r\n  \"seguro\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/simulacoes/97093236016",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"simulacoes",
+								"97093236016"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consultar por cpf sem simulações",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Silvia Sant\",\r\n  \"cpf\": 97093236016,\r\n  \"email\": \"tmail@email.com\",\r\n  \"valor\": 7200,\r\n  \"parcelas\": 8,\r\n  \"seguro\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/simulacoes/97093236013",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"simulacoes",
+								"97093236013"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DELETE",
+			"item": [
+				{
+					"name": "remover simulações por ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Silvia Sant\",\r\n  \"cpf\": 97093236016,\r\n  \"email\": \"tmail@email.com\",\r\n  \"valor\": 7200,\r\n  \"parcelas\": 8,\r\n  \"seguro\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/simulacoes/14",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"simulacoes",
+								"14"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
